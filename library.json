@@ -1,0 +1,21 @@
+{
+    "title": "PianoPerformance",
+    "description": "--Description--",
+    "majorVersion": 1,
+    "minorVersion": 0,
+    "patchVersion": 0,
+    "runnable": 1,
+    "author": "RG",
+    "license": "cc-by-sa",
+    "machineName": "H5P.PianoPerformance",
+    "coreApi": {
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    "preloadedJs": [
+      { "path": "dist/h5p-piano-performance.js" }
+    ],
+    "preloadedCss": [
+      { "path": "dist/h5p-piano-performance.css" }
+    ]
+  }

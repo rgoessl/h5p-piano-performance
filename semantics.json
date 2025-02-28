@@ -1,0 +1,39 @@
+[ 
+  { 
+    "label": "Sheet Music", 
+    "name": "music", 
+    "type": "text", 
+    "description": "The song the user is expected to play."
+  },
+  {
+    "label": "Tempo",
+    "name": "tempo",
+    "type": "number",
+    "min": 40,
+    "max": 208,
+    "default": 75,
+    "description": "The number of beats per minute that the song should be played at."
+  },
+  {
+    "label": "Automatic Keyboard Size",
+    "name": "keyboardAuto",
+    "type": "boolean",
+    "description": "When set, the piano keyboard will be sized automatically to the range of the music.",
+    "optional": true,
+    "default": true
+  },
+  {
+    "label": "Keyboard Low Pitch",
+    "name": "noteMin",
+    "type": "text",
+    "description": "The lowest pitch available on the piano keyboard.",
+    "optional": true
+  },
+  {
+    "label": "Keyboard High Pitch",
+    "name": "noteMax",
+    "type": "text",
+    "description": "The highest pitch available on the piano keyboard.",
+    "optional": true
+  }
+]

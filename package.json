@@ -1,0 +1,35 @@
+{
+  "name": "h5p.piano-performance",
+  "version": "1.0.0",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production npx webpack",
+    "watch": "npx webpack --watch",
+    "demo": "http-server ./dist -o ./demo"
+  },
+  "author": "RG",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-destructuring": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.6.3",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "regenerator-runtime": "^0.13.9",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "tone": "^15.0.4"
+  }
+}
